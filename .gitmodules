@@ -1,0 +1,3 @@
+[submodule "nsislib"]
+	path = nsislib
+	url = git@github.com:rasa/nsislib.git
