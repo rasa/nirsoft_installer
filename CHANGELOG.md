@@ -1,4 +1,4 @@
-# 1.46 (unreleased)
+# 1.46 (19-Feb-2015)
 
   * Added DNSQuerySniffer - View DNS queries sent by your system (32bit 2000+)
   * Added DNSQuerySniffer - View DNS queries sent by your system (64bit XP+)
@@ -57,7 +57,7 @@
   * Updated WirelessKeyView URL
 
 
-# 1.45 (14 Apr 13)
+# 1.45 (14-Apr-2013)
 
   * Added NetConnectChoose - Choose default Internet connection (2000+)
   * Added JumpListsView - View 'Jump Lists' (7+)
@@ -69,7 +69,7 @@
   * Added Windows 8 to InsType 4 (All - Windows 32-bit - 8/7/Vista or newer)
   * Updated copyright date to 2013
 
-# 1.44 (25 Dec 12)
+# 1.44 (25-Dec-2012)
 
   * Added LastActivityView - View user and system activity (2000+)
   * Added WinsockServicesView - View Winsock service providers (2000+)
@@ -81,7 +81,7 @@
   * Added FolderChangesView - Monitors folder or disk drive changes (2000+)
   * Added RTMPDumpHelper - Download RTMP video/audio streams (XP+)
 
-# 1.43 (27 May 12)
+# 1.43 (27-May-2012)
 
   * Added OutlookAddressBookView - View Outlook address books (2000+ 32bit)
   * Added OutlookAddressBookView - View Outlook address books (XP+ 64bit)
@@ -89,7 +89,7 @@
   * Added ExifDataView - List Exif data in JPEG images (2000+)
   * Added NTFSLinksView - View symbolic links and junction points (Vista+)
 
-# 1.42 (05 Apr 12)
+# 1.42 (05-Apr-2012)
 
   * Added BluetoothLogView - Monitor and log the Bluetooth activity around you (XP+)
   * Added PasswordSecurityScan - scan application passwords (2000+)
@@ -102,7 +102,7 @@
   * Reworked application descriptions so GUI versions appear first
   * Updated copyright date to 2012
 
-# 1.41 (16 Dec 11)
+# 1.41 (16-Dec-2011)
 
   * Added USBLogView - View USB device log (2000+)
   * Added HTTPNetworkSniffer - Capture web requests and responses (2000+ 32bit)
@@ -111,13 +111,13 @@
   * Added SafariHistoryView - View Safari history (2000+ 32bit)
   * Added SafariHistoryView - View Safari history (XP+ 64bit)
 
-# 1.40 (23 Oct 11)
+# 1.40 (23-Oct-2011)
 
   * Added WebCamImageSave - Capture web camera images every x seconds (2000+)
   * Added WebCookiesSniffer - Capture web site cookies sent to browser (2000+ 32bit)
   * Added WebCookiesSniffer - Capture web site cookies sent to browser (XP+ 64bit)
 
-# 1.39 (26 Sep 11)
+# 1.39 (26-Sep-2011)
 
   * Added WebSiteSniffer - Save files downloaded by your browser (2000+ 32bit)
   * Added WebSiteSniffer - Save files downloaded by your browser (XP+ 64bit)
@@ -139,7 +139,7 @@
   * Changed all program descriptions to lowercase
   * Reworked several program descriptions as needed
 
-# 1.38 (03 Jul 11)
+# 1.38 (03-Jul-2011)
 
   * Added Beta of VoluMouse Utility - Control Volume With Mouse Wheel (32bit)
   * Added Beta of VoluMouse Utility - Control Volume With Mouse Wheel (64bit)
@@ -160,7 +160,7 @@
 	Error in script "nirsoft_installer.nsi" on line 68 -- aborting creation process
 	````
 
-# 1.37 (25 Feb 11)
+# 1.37 (25-Feb-2011)
 
   * Added FirefoxDownloadsView - Display Firefox downloads (2000+)
   * Added DriveLetterView - List/Change drive letter assignments (2000+)
@@ -179,7 +179,7 @@
 	9: None
 	````
 
-# 1.36 (11 Jan 11)
+# 1.36 (11-Jan-2011)
 
   * Added BulletsPassView - Review passwords (2000+)
   * Added RegFileExport - Dump Windows registry to .reg file (2000+)
@@ -188,7 +188,7 @@
   * Upgraded NSIS to 2.39
   * Using special logging build (output to $INSTDIR/install.log)
 
-# 1.35 (10 Jun 10)
+# 1.35 (10-Jun-2010)
 
   * Added RouterPassView - View details in router backup files (2000+)
   * Added BulkFileChanger - Updated file times (2000+)
@@ -213,17 +213,17 @@
 	7: All - Windows 95
 	````
 
-# 1.34 (31 Dec 09)
+# 1.34 (31-Dec-2009)
 
   * Added DevManView - Display All Installed Devices (2000+)
 
-# 1.33 (29 Sep 09)
+# 1.33 (29-Sep-2009)
 
   * Added WinFontsView - View Installed Fonts (2000+)
   * Replaced nsisunz.dll with nsUnzip.dll (Fixed BlueScreenView unzip issue)
   * Added FileTypesMan: Alternative to 'File Types' manager of Windows (98-ME)
 
-# 1.32 (10 Aug 09)
+# 1.32 (10-Aug-2009)
 
   * Added BlueScreenView - Display 'blue screen of death' crash information (XP+)
   * Added BluetoothCL - Monitor the Bluetooth activity around you (XP+)
@@ -241,17 +241,17 @@
 	6: Windows 95
 	````
 
-# 1.31 (24 Jun 09)
+# 1.31 (24-Jun-2009)
 
   * Added MACAddressView - Lookup MAC Address company information (98+)
   * Added OutlookStatView - Display Outlook mailbox statistics (2000+)
 
-# 1.30 (18 Apr 09)
+# 1.30 (18-Apr-2009)
 
   * Added DownTester - Test Download Speed
   * Added WhatInStartup - Enable/Disable Startup Applications (2000+)
 
-# 1.29 (01 Apr 09)
+# 1.29 (01-Apr-2009)
 
   * Added Clipboardic - Save Clipboard Activity to .clp Files (2000+)
   * Added CurrPorts - IP to Country file (IpToCountry.csv)
@@ -259,20 +259,20 @@
   * Added SmartSniff - IP to Country file (IpToCountry.csv)
   * Added USBDeview - USB VendorID/ProductID file (usb.ids)
 
-# 1.28 (13 Mar 09)
+# 1.28 (13-Mar-2009)
 
   * Added AlternateStreamView - View NTFS Alternate Streams (2000+)
   * Added OutlookAttachView - View Outlook Attachments (2000+)
   * Added SearchMyFiles - Improved File Search Method (2000+)
 
-# 1.27 (01 Jan 09)
+# 1.27 (01-Jan-2009)
 
   * Added ChromeCacheView - Google Chrome Web Browser Cache Viewer
   * Added SNRemove - Removes reference to strong name signatures from .NET exes/dlls
   * Added StartBlueScreen - Crash Windows by initiating a Blue Screen of Death (2000+)
   * Removed duplicate AtNow entry, thanks MrBrian!
 
-# 1.26 (27 Nov 08)
+# 1.26 (27-Nov-2008)
 
   * Added DNSDataView - GUI Alternative to NSLookup (XP+)
   * Added IPInfoOffline - View IP Address Information Offline (Win98+)
@@ -280,27 +280,27 @@
   * Added UserProfilesView - View User Profiles (2000+)
   * Added WirelessNetConsole - Console App to Dump Wireless Network Information (XP+)
 
-# 1.25 (15 Sep 08)
+# 1.25 (15-Sep-2008)
 
   * Added ChromePass - Reveal Google Chrome Web Browser Passwords
 
-# 1.24 (10 Sep 08)
+# 1.24 (10-Sep-2008)
 
   * Added OperaCacheView - View Opera Web browser cache
   * Added UserAssistView - View UserAssist Entries Registry Entries
 
-# 1.23 (11 Aug 08)
+# 1.23 (11-Aug-2008)
 
   * Added ShellBagsView - View Saved Folders Settings
   * Added PasswordFox - Recover the passwords of Mozilla Firefox
   * Changed sort order of program list to be case-insensitive
 
-# 1.22 (15 Jul 08)
+# 1.22 (15-Jul-2008)
 
   * Fixed broken link for Dialupass
   * Fixed broken link for IEDesignMode
 
-# 1.21 (14 Jul 08)
+# 1.21 (14-Jul-2008)
 
   * Added ProcessActivityView - View process access of files & folders
   * Added SocketSniff - Watch WinSock Activity of Selected Processes
@@ -314,7 +314,7 @@
   * Fixed Windows 95/98 vs. Windows 2000/XP links (really), thanks Dubiaku!
   * Re-alphabetized program list
 
-# 1.20 (06 Jun 08)
+# 1.20 (06-Jun-2008)
 
   * Added CleanAfterMe - Auto clean files and registry entries
   * Added DotNetResourcesExtract - Extract Resources from .NET applications
@@ -325,24 +325,24 @@
   * Fixed Windows 95/98 vs. Windows 2000/XP links
   * Changed Added leading space to "Website" and "Uninstall" icons
 
-# 1.19 (17 Apr 08)
+# 1.19 (17-Apr-2008)
 
   * Added PingInfoView - Ping Multiple Hosts / IP Addressses
 
-# 1.18 (19 Mar 08)
+# 1.18 (19-Mar-2008)
 
   * Added MyEventViewer - Event Log Viewer
   * Added SiteShoter - Save Screenshots of Web Pages
   * Added WirelessNetView: Monitor wireless networks on your area
 
-# 1.17 (06 Feb 08)
+# 1.17 (06-Feb-2008)
 
   * Added BluetoothView: Monitor the Bluetooth activity around you
   * Added FileTypesMan: Alternative to 'File Types' manager of Windows
   * Added OpenWithView: Disable/Enable items in the 'Open With' dialog-box of Windows
   * Updated "Top 10" list per http://www.nirsoft.net/top_utilities_downloads.html
 
-# 1.16 (29 Dec 07)
+# 1.16 (29-Dec-2007)
 
   * Changed "All" to "All - Windows 2000/XP/2003" & InstType "All - Windows 95/98/ME"
   * Added InsideClipboard: View clipboard contents
@@ -354,55 +354,55 @@
   * Updated "Top 10" list per http://www.nirsoft.net/top_utilities_downloads.html
   * Re-alphabetized application list
 
-# 1.15 (21 Nov 07)
+# 1.15 (21-Nov-2007)
 
   * Added MyLastSearches
   * Added InstalledCodec
 
-# 1.14 (30 Oct 07)
+# 1.14 (30-Oct-2007)
 
   * Added VideoCacheView
 
-# 1.13 (02 Oct 07)
+# 1.13 (02-Oct-2007)
 
   * Added MozillaCacheView
 
-# 1.12 (18 Sep 07)
+# 1.12 (18-Sep-2007)
 
   * Added MozillaHistoryView
 
-# 1.11 (11 Sep 07)
+# 1.11 (11-Sep-2007)
 
   * Added RegDllView
   * Added IEDesignMode
 
-# 1.10 (07 Sep 07)
+# 1.10 (07-Sep-2007)
 
   * Added HeapMemView
 
-# 1.9 (06 Aug 07)
+# 1.9 (06-Aug-2007)
 
   * Added GDIView
   * Added URLProtocolView
   * Removed "What's New" install options
   * Upgraded NSIS to 2.29
 
-# 1.8 (22 May 07)
+# 1.8 (22-May-2007)
 
   * Added RunAsDate
 
-# 1.7 (05 Apr 07)
+# 1.7 (05-Apr-2007)
 
   * Added NK2View
   * Fixed user defined start menu folder bug
   * Upgraded NSIS to 2.24
 
-# 1.6 (27 Dec 06)
+# 1.6 (27-Dec-2006)
 
   * Added Remote Desktop PassView - Display passwords in .rdp files used by the Remote Desktop Connection utility
   * Updated description text
 
-# 1.5 (18 Oct 06)
+# 1.5 (18-Oct-2006)
 
   * Added "What's New" category, containing the following items
   * Added DumpEDID - Dump extended display identification data
@@ -412,23 +412,23 @@
   * Added USBDeview - Lists all USB devices
   * Added WirelessKeyView - Recovers all wireless network keys
 
-# 1.4 (23 Aug 06)
+# 1.4 (23-Aug-2006)
 
   * Added Iepv - IEPassView
 
-# 1.3 (21 Aug 06)
+# 1.3 (21-Aug-2006)
 
   * Upgraded NSIS to 2.19
 
-# 1.2 (23 Jun 06)
+# 1.2 (23-Jun-2006)
 
   * Added PstPassword
   * Added InjectedDLL
 
-# 1.1 (12 May 06)
+# 1.1 (12-May-2006)
 
   * Download errors are retried 5 times before reporting failure
 
-# 1.0 (14 Apr 06)
+# 1.0 (14-Apr-2006)
 
   * Initial release
