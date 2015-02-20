@@ -1,6 +1,6 @@
 # nirsoft_installer
 
-nirsoft_installer lets you download and install most of the freeware
+nirsoft_installer downloads and installs most of the freeware
 applications available at http://nirsoft.net.
 
 nirsoft_installer looks in the directory where nirsoft_installer.exe is for
