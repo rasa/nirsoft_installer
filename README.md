@@ -1,14 +1,15 @@
-# nirsoft_installer
+# nirsoft_installer [![Flattr this][flatter_png]][flatter]
 
-nirsoft_installer downloads and installs most of the freeware
-applications available at http://nirsoft.net.
+Download and install most of the freeware applications available at
+http://nirsoft.net.
 
 nirsoft_installer looks in the directory where nirsoft_installer.exe is for
 any files it needs before attempting to download them. If it does download a
 file, it will attempt to save a copy of the file in this same directory.
 
-nirsoft_installer adds the installation directory (typically
-`C:\Program Files\NirSoft`) to your PATH environment variable.
+nirsoft_installer adds the installation directory to your PATH environment variable.
+On 32-bit systems, this directory is usually `C:\Program Files\NirSoft`.
+On 64-bit systems, this directory is usually `C:\Program Files(x86)\NirSoft`.
 
 If the program is a Windows GUI application, an icon is created in the
 `C:\Documents and Settings\%username%\Start Menu\Programs\NirSoft` directory.
@@ -40,22 +41,6 @@ Options:
             9: All - Windows 95
            10: Added in release 1.46 (32-bit)
            11: Added in release 1.46 (64-bit)
-
-The following options are planned to be implemented in a future version:
-
-/SAVEDIR d Save downloaded files in directory d
-/PROXY     Set proxy settings
-/RETRIES n Number of times to retry each download before reporting failure
-           (default: 5)
-/ALLUSERS  Install icons for all users
-           This is the default if the user is an administrator
-/USER      Install icons for the current user only
-           This is the default if the user is not an administrator
-/VERSION   Show the version and quit
-/?         Show this help message and quit
-
-If you encounter any errors, please post your installation log to smithii.com.
-The installation log will normally be created in %ProgramFiles%\SysInternals\install.log
 ````
 
 ## Contributing
@@ -64,17 +49,25 @@ To contribute to this project, please see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Bugs
 
-To view existing bugs, or report a new bug, please see the [issues](/issues) page for this project.
+To view existing bugs, or report a new bug, please see [issues](../../issues).
+
+## Changelog
+
+To view the version history for this project, please see [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
 This project is [MIT licensed](LICENSE).
 
-## Changelog
-
-Please see [CHANGELOG.md](CHANGELOG.md) for the version history for this project.
-
 ## Contact
 
-This project was originally developed by [Ross Smith II](mailto:ross@smithii.com).
-Any enhancements and suggestions are welcome.
+This project was created and is maintained by [Ross Smith II][] [![endorse][endorse_png]][endorse]
+
+Feedback, suggestions, and enhancements are welcome.
+
+[Ross Smith II]: mailto:ross@smithii.com "ross@smithii.com"
+[flatter]: https://flattr.com/submit/auto?user_id=rasa&url=https%3A%2F%2Fgithub.com%2Frasa%2Fnirsoft_installer
+[flatter_png]: http://button.flattr.com/flattr-badge-large.png "Flattr this"
+[endorse]: https://coderwall.com/rasa
+[endorse_png]: https://api.coderwall.com/rasa/endorsecount.png "endorse"
+
