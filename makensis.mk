@@ -38,6 +38,6 @@ all:	$(RELEASE_APP_EXE)
 clean:
 	-rm -f \
 		$(RELEASE_APP_EXE) \
-		$(CLEANED_FILES) \
+		$(CLEAN_FILES) \
 		$(SIGNED_FILES) \
 		$(UPXED_FILES)
