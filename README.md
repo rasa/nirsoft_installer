@@ -41,6 +41,33 @@ Options:
             9: All - Windows 95
            10: Added in release 1.46 (32-bit)
            11: Added in release 1.46 (64-bit)
+           12: Added in release 1.47 (32-bit)
+           13: Added in release 1.47 (64-bit)
+````
+
+## Verify a Release
+
+To verify a release, download the .zip, .sha256, and .asc files for the release 
+(replacing nirsoft_installer-1.47-win32.zip with the release you are verifying):
+
+````
+$ wget https://github.com/rasa/nirsoft_installer/releases/download/v1.47/nirsoft_installer-1.47-win32.zip{,.sha256,.asc}
+````
+
+Next, check that sha256sum reports "OK":
+````
+$ sha256sum -c nirsoft_installer-1.47-win32.zip.sha256
+nirsoft_installer-1.47-win32.zip: OK
+````
+
+Lastly, check that GPG reports "Good signature":
+
+````
+$ gpg --keyserver hkps.pool.sks-keyservers.net --recv-key 0x105a5225b6ab4b22
+$ gpg --verify nirsoft_installer-1.47-win32.zip.asc nirsoft_installer-1.47-win32.zip
+gpg:                using RSA key 0xFF914F74B4BB6EF3
+gpg: Good signature from "Ross Smith II <ross@smithii.com>" [ultimate]
+...
 ````
 
 ## Contributing

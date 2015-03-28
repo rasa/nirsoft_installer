@@ -144,6 +144,7 @@ WirelessKeyDump
 !insertmacro DownloadGUI "3"                    "FileTypesMan - 'File type' manager alternative (64bit XP+)"    "http://www.nirsoft.net/utils/filetypesman-x64.zip" "filetypesman.exe"  "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "8"                    "FileTypesMan - 'File type' manager alternative (98-ME)"    "http://www.nirsoft.net/utils/filetypesman-98.zip"  "filetypesman.exe"  "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6"              "FirefoxDownloadsView - View Firefox downloads (2000+)" "http://www.nirsoft.net/utils/firefoxdownloadsview.zip" "firefoxdownloadsview.exe" "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "12 13 3 4 5"          "FirmwareTablesView - View firmware tables (XP+)" "http://www.nirsoft.net/utils/firmwaretablesview.zip"   "firmwaretablesview.exe"	"" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6"              "FlashCookiesView - View Flash cookies (2000+)" "http://www.nirsoft.net/utils/flashcookiesview.zip" "flashcookiesview.exe" "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6"              "FolderChangesView - Monitors folder or disk drive changes (2000+)" "http://www.nirsoft.net/utils/folderchangesview.zip"  "folderchangesview.exe"   "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "FoldersReport - Folder usage report"   "http://www.nirsoft.net/utils/folrep.zip"   "folrep.exe"    "" "http://www.nirsoft.net/utils/"
