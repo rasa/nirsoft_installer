@@ -1,3 +1,7 @@
+## 1.48 (12-Apr-2015)
+
+  * Update Inetc NSIS plugin to 1.0.4.4
+
 ## 1.47 (27-Mar-2015)
 
   * Added FirmwareTablesView - View firmware tables (XP+)
