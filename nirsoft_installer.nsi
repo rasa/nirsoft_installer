@@ -21,17 +21,19 @@
 !define NOEXTRACTPATH
 !define UNZIP_DIR "$INSTDIR"
 
-InstType "Top 10 - Windows 32-bit"
-InstType "Top 10 - Windows 64-bit"
-InstType "All - Windows 64-bit - All versions"
-InstType "All - Windows 32-bit - 8/7/Vista or newer"
-InstType "All - Windows 32-bit - 2008/2003/XP"
-InstType "All - Windows 2000/NT"
-InstType "All - Windows NT"
-InstType "All - Windows ME/98/95"
-InstType "All - Windows 95"
-InstType "Added in release ${PRODUCT_VERSION} (32-bit)"
-InstType "Added in release ${PRODUCT_VERSION} (64-bit)"
+InstType "Top 10 - Windows 32-bit" # 1
+InstType "Top 10 - Windows 64-bit" # 2
+InstType "All - Windows 64-bit - All versions" # 3
+InstType "All - Windows 32-bit - 8/7/Vista or newer" # 4
+InstType "All - Windows 32-bit - 2008/2003/XP" # 5
+InstType "All - Windows 2000/NT" # 6
+InstType "All - Windows NT" # 7
+InstType "All - Windows ME/98/95" # 8
+InstType "All - Windows 95" # 9
+InstType "Added in release 1.47 (32-bit)" # 10
+InstType "Added in release 1.47 (64-bit)" # 11
+InstType "Added in release ${PRODUCT_VERSION} (32-bit)" # 12
+InstType "Added in release ${PRODUCT_VERSION} (64-bit)" # 13
 InstType "None"
 
 !include "common.nsh"

@@ -1,3 +1,10 @@
+## 1.49 (20-May-2015)
+
+  * Added SimpleWMIView - View WMI queries (XP+)
+  * Added SecuritySoftView - View installed AntiVirus, AntiSpyware & Firewall programs (XP+)
+  * Remove UPX compression
+  * Update Makefile
+
 ## 1.48 (12-Apr-2015)
 
   * Update Inetc NSIS plugin to 1.0.4.4
@@ -9,7 +16,7 @@
   * Release zip files are gpg signed and sha256 hashed
   * Standardize build scripts
   * Update documentation
-  
+
 ## 1.46 (19-Feb-2015)
 
   * Added DNSQuerySniffer - View DNS queries sent by your system (32bit 2000+)
