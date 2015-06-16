@@ -39,10 +39,10 @@ Options:
             7: All - Windows NT
             8: All - Windows ME/98/95
             9: All - Windows 95
-           10: Added in release 1.46 (32-bit)
-           11: Added in release 1.46 (64-bit)
-           12: Added in release 1.47 (32-bit)
-           13: Added in release 1.47 (64-bit)
+           10: Added in release 1.47 (32-bit)
+           11: Added in release 1.47 (64-bit)
+           12: Added in release 1.49 (32-bit)
+           13: Added in release 1.49 (64-bit)
 ````
 
 ## Verify a Release
