@@ -51,7 +51,7 @@ To verify a release, download the .zip, .sha256, and .asc files for the release
 (replacing nirsoft_installer-1.49-win32.zip with the release you are verifying):
 
 ````
-$ wget https://github.com/rasa/nirsoft_installer/releases/download/v1.47/nirsoft_installer-1.49-win32.zip{,.sha256,.asc}
+$ wget https://github.com/rasa/nirsoft_installer/releases/download/v1.49/nirsoft_installer-1.49-win32.zip{,.sha256,.asc}
 ````
 
 Next, check that sha256sum reports "OK":
