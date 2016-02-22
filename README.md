@@ -43,6 +43,8 @@ Options:
            11: Added in release 1.47 (64-bit)
            12: Added in release 1.49 (32-bit)
            13: Added in release 1.49 (64-bit)
+           14: Added in release 1.50 (32-bit)
+           15: Added in release 1.50 (64-bit)
 ````
 
 ## Verify a Release

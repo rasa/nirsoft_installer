@@ -1,3 +1,15 @@
+## 1.50 (21-Feb-2016)
+
+  * Added AdvancedRun - Run a program with different settings (32bit XP+)
+  * Added AdvancedRun - Run a program with different settings (64bit XP+)
+  * Added MMCSnapInsView - View installed MMC snap-ins (32bit XP+)
+  * Added MMCSnapInsView - View installed MMC snap-ins (64bit XP+)
+  * Added NetworkOpenedFiles - View all currently opened files by other computers (32bit XP+)
+  * Added NetworkOpenedFiles - View all currently opened files by other computers (64bit XP+)
+  * Added TaskSchedulerView - View Task Scheduler items (32bit Vista+)  
+  * Added TaskSchedulerView - View Task Scheduler items (64bit Vista+)  
+  * Added WifiHistoryView - View WiFi connection history (Vista+)  
+
 ## 1.49 (20-May-2015)
 
   * Added SimpleWMIView - View WMI queries (XP+)

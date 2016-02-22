@@ -1,4 +1,4 @@
-# Copyright (c) 2005-2015 Ross Smith II (http://smithii.com). MIT Licensed.
+# Copyright (c) 2005-2016 Ross Smith II (http://smithii.com). MIT Licensed.
 
 !define PRODUCT_NAME "nirsoft_installer"
 !define PRODUCT_DIR "NirSoft"
@@ -32,8 +32,10 @@ InstType "All - Windows ME/98/95" # 8
 InstType "All - Windows 95" # 9
 InstType "Added in release 1.47 (32-bit)" # 10
 InstType "Added in release 1.47 (64-bit)" # 11
-InstType "Added in release ${PRODUCT_VERSION} (32-bit)" # 12
-InstType "Added in release ${PRODUCT_VERSION} (64-bit)" # 13
+InstType "Added in release 1.49 (32-bit)" # 12
+InstType "Added in release 1.49 (64-bit)" # 13
+InstType "Added in release ${PRODUCT_VERSION} (32-bit)" # 14
+InstType "Added in release ${PRODUCT_VERSION} (64-bit)" # 15
 InstType "None"
 
 !include "common.nsh"
