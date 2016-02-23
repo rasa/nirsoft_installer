@@ -1,3 +1,9 @@
+## 1.50.1 (23-Feb-2016)
+
+  * Updated BulletsPassView URL
+  * Updated oui.txt URL
+  * Removed Dialupass2 as it is 404
+
 ## 1.50 (21-Feb-2016)
 
   * Added AdvancedRun - Run a program with different settings (32bit XP+)
