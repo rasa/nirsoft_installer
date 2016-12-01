@@ -4,76 +4,33 @@
 # todo add:
 #http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz
 
-64 bit versions
+http://www.nirsoft.net/x64_download_package.html is hopelessly out of date
 
-CurrPorts - View open TCP-IP connections (64bit)"   "http://www.nirsoft.net/utils/cports-x64.zip"   "cports.exe"    ""
-NetPass - Reveal network passwords (64bit)" "http://www.nirsoft.net/utils/netpass-x64.zip"  "netpass.exe"   ""
-SpecialFoldersView - View special folder locations (64bit)" "http://www.nirsoft.net/utils/specialfoldersview-x64.zip"   "specialfoldersview.exe"    ""
-ProduKey - Reveal Office, Windows CD keys (64bit)"  "http://www.nirsoft.net/utils/produkey-x64.zip" "ProduKey.exe"  ""
-RegScanner - RegEdit alternative (64bit XP+)"   "http://www.nirsoft.net/utils/regscanner-x64.zip"   "RegScanner.exe"    ""
-FileTypesMan - 'File type' manager alternative (64bit XP+)" "http://www.nirsoft.net/utils/filetypesman-x64.zip" "filetypesman.exe"  ""
-ShellExView - Shell extensions manager (64 bit)"    "http://www.nirsoft.net/utils/shexview-x64.zip" "shexview.exe"  ""
-ShellMenuView - Manage context menu items (64bit XP+)"  "http://www.nirsoft.net/utils/shmnview-x64.zip" "shmnview.exe"  ""
-SysExporter - Grab data from UI components (64bit)" "http://www.nirsoft.net/utils/sysexp-x64.zip"   "sysexp.exe"    ""
-VoluMouse (Beta 3) - Control volume with mouse wheel (64bit)"   "http://www.nirsoft.net/utils/volumouse_beta-x64.zip"   "volumouse.exe" ""
-VoluMouse - Control volume with mouse wheel (64bit)"    "http://www.nirsoft.net/utils/volumouse-x64.zip"    "volumouse.exe" ""
-DriverView - View loaded device drivers (64bit XP+)"    "http://www.nirsoft.net/utils/driverview-x64.zip"   "DriverView.exe"    ""
-RegDllView - View registered DLL,OCX,EXE's (64bit)" "http://www.nirsoft.net/utils/regdllview-x64.zip"   "RegDllView.exe"    ""
-ProcessActivityView - View process access of files & folders (64bit XP+)"   "http://www.nirsoft.net/utils/processactivityview-x64.zip"  "processactivityview.exe"   ""
-RegFromApp - Creates .reg file from application (64bit XP+)"    "http://www.nirsoft.net/utils/regfromapp-x64.zip"   "regfromapp.exe"    ""
-DLL Export Viewer - View DLL exported functions (64bit)"    "http://www.nirsoft.net/utils/dllexp-x64.zip"   "dllexp.exe"    ""
-HeapMemView - Dump heap memory (64bit XP+)" "http://www.nirsoft.net/utils/heapmemview-x64.zip"  ""
-GDI View - View GDI handles (64bit XP+)"    "http://www.nirsoft.net/utils/gdiview-x64.zip"  "gdiview.exe"   ""
-RunAsDate - Run program using specified date & time (64bit XP+)"    "http://www.nirsoft.net/utils/runasdate-x64.zip"    "RunAsDate.exe" ""
-OutlookAddressBookView - View Outlook address books (XP+ 64bit)"	"		http://www.nirsoft.net/utils/outlookaddressbookview-x64.zip" "outlookaddressbookview" ""
+1	wnetwatcher.zip	132,830
+2	produkey.zip	106,266
+3	produkey-x64.zip	90,145
+4	mailpv.zip	89,596
+5	bluescreenview.zip	84,008
+6	wirelessnetview.zip	64,939
+7	bluetoothview.zip	61,803
+8	wirelesskeyview.zip	57,339
+9	cports.zip	51,737
+10	videocacheview.zip	45,294
 
-BrowsingHistoryView - View browser history for IE, Firefox, Chrome, & Safari (64bit XP+)"  "http://www.nirsoft.net/utils/browsinghistoryview-x64.zip"   "browsinghistoryview.exe" ""
-MultiMonitorTool - Work with multiple monitors (64bit XP+)"  "http://www.nirsoft.net/utils/multimonitortool-x64.zip"   "multimonitortool.exe" ""
-
-TcpLogView - View TCP connections (64bit XP+)
-
-missing on http://www.nirsoft.net/x64_download_package.html :
-
-NetworkTrafficView
-ProcessThreadsView
-WebSiteSniffer
-WebCookiesSniffer
-WirelessKeyDump
-
-1	 wirelesskeyview.zip	 256,706
-2	 bluetoothview.zip	 141,571
-3	 mailpv.zip	 88,630
-4	 produkey.zip	 85,608
-5	 webbrowserpassview.zip	 82,869
-6	 bluescreenview.zip	 65,258
-7	 videocacheview.zip	 59,921
-8	 wnetwatcher.zip	 57,230
-9	 iepv.zip	 53,699
-10	 usbdeview.zip	 48,280
-
-        1: Top Ten (Windows 32 bit)
-        2: Top Ten (Windows 64 bit)
-        3: All - Windows 64 bit - All versions
-        4: All - Windows 32 bit - 8/7/Vista or newer
-        5: All - Windows 32 bit - 2008/2003/XP
-        6: All - Windows 32 bit - 2000/NT
-        7: All - Windows 32 bit - NT
-        8: All - Windows 32 bit - ME/98/95
-        9: All - Windows 32 bit - 95
 */
 
-!insertmacro DownloadGUI "1 2 3 4 5 6 7"        "BluetoothView - Monitor the Bluetooth activity around you (NT+)"   "http://www.nirsoft.net/utils/bluetoothview.zip"    "bluetoothview.exe" "" "http://www.nirsoft.net/utils/"
-!insertmacro DownloadGUI "1 2 3 4 5"            "BlueScreenView - View 'Blue Screen of Death' crash information (XP+)"  "http://www.nirsoft.net/utils/bluescreenview.zip"   "bluescreenview.exe" "" "http://www.nirsoft.net/utils/"
-!insertmacro DownloadGUI "1 2 3 4 5 6 7 8 9"    "IEPassView - View IE passwords"    "http://www.nirsoft.net/toolsdownload/iepv.zip" "iepv.exe"  "" "http://www.nirsoft.net/utils/"
-!insertmacro DownloadGUI "1 2 3 4 5 6 7 8 9"    "MailPassView - Reveal mail passwords"  "http://www.nirsoft.net/toolsdownload/mailpv.zip"   "mailpv.exe"    "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "1 2 3 4 5 6"          "WirelessNetworkWatcher - View connected computers & devices (2000+)"   "http://www.nirsoft.net/utils/wnetwatcher.zip"  "wnetwatcher.exe"   "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "1     4 5 6 7 8 9"    "ProduKey - Reveal Office, Windows CD keys (32bit)" "http://www.nirsoft.net/utils/produkey.zip" "ProduKey.exe"  "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "  2 3"                "ProduKey - Reveal Office, Windows CD keys (64bit)" "http://www.nirsoft.net/utils/produkey-x64.zip" "ProduKey.exe"  "" "http://www.nirsoft.net/utils/"
-!insertmacro DownloadCpy "1 2 3 4 5 6"          "USBDeview - Download usb.ids (USB VendorID-ProductID file)"    "http://www.linux-usb.org/usb.ids"  "" "http://www.nirsoft.net/utils/"
-!insertmacro DownloadGUI "1 2 3 4 5 6"          "USBDeview - View all USB devices (2000+)"  "http://www.nirsoft.net/utils/usbdeview.zip"    "usbdeview.exe" "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "1 2 3 4 5 6 7 8 9"    "MailPassView - Reveal mail passwords"  "http://www.nirsoft.net/toolsdownload/mailpv.zip"   "mailpv.exe"    "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "1 2 3 4 5"            "BlueScreenView - View 'Blue Screen of Death' crash information (XP+)"  "http://www.nirsoft.net/utils/bluescreenview.zip"   "bluescreenview.exe" "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "1 2 3 4 5"            "WirelessNetView - Monitor wireless networks on your area (XP+)"    "http://www.nirsoft.net/utils/wirelessnetview.zip"  "wirelessnetview.exe"   "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "1 2 3 4 5 6 7"        "BluetoothView - Monitor the Bluetooth activity around you (NT+)"   "http://www.nirsoft.net/utils/bluetoothview.zip"    "bluetoothview.exe" "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "1 2 3 4 5"            "WirelessKeyView - Reveal wireless network keys (XP+)"  "http://www.nirsoft.net/toolsdownload/wirelesskeyview.zip"  "wirelesskeyview.exe"   "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "1     4 5 6 7 8 9"    "CurrPorts - View open TCP-IP connections (32bit)"  "http://www.nirsoft.net/utils/cports.zip"   "cports.exe"    "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "  2 3"                "CurrPorts - View open TCP-IP connections (64bit)"  "http://www.nirsoft.net/utils/cports-x64.zip"   "cports.exe"    "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadCLI "1 2 3 4 5 6 7 8 9"    "CurrPorts - ~Download IpToCountry.csv (IP-to-country map)"  "http://smithii.com/files/IpToCountry.csv.zip"  "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "1 2 3 4 5 6 7 8 9"    "VideoCacheView - View vidoes in browser cache" "http://www.nirsoft.net/utils/videocacheview.zip"   "videocacheview.exe"    "" "http://www.nirsoft.net/utils/"
-!insertmacro DownloadGUI "1 2 3 4 5 6"          "WebBrowserPassView - View password for 4 browsers (2000+)" "http://www.nirsoft.net/toolsdownload/webbrowserpassview.zip"   "webbrowserpassview.exe"    "" "http://www.nirsoft.net/utils/"
-!insertmacro DownloadGUI "1 2 1 2 3 4 5"        "WirelessKeyView - Reveal wireless network keys (XP+)"  "http://www.nirsoft.net/toolsdownload/wirelesskeyview.zip"  "wirelesskeyview.exe"   "" "http://www.nirsoft.net/utils/"
-!insertmacro DownloadGUI "1 2 3 4 5 6"          "WirelessNetworkWatcher - View connected computers & devices (2000+)"   "http://www.nirsoft.net/utils/wnetwatcher.zip"  "wnetwatcher.exe"   "" "http://www.nirsoft.net/utils/"
 
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "AccessPV - Reveal MS Access database passwords"    "http://www.nirsoft.net/utils/accesspv.zip" "accesspv.exe"  "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "ACM - ActiveX compatibility manager"   "http://www.nirsoft.net/utils/acm.zip"  "acm.exe"   "" "http://www.nirsoft.net/utils/"
@@ -93,6 +50,8 @@ WirelessKeyDump
 !insertmacro DownloadGUI "3 4 5 6"              "BatteryInfoView - View laptop battery information (2000+)" "http://www.nirsoft.net/utils/batteryinfoview.zip"  "batteryinfoview.exe"   "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5"                "BluetoothLogView - Monitor & log the Bluetooth activity around you (XP+)"   "http://www.nirsoft.net/utils/bluetoothlogview.zip"    "bluetoothlogview.exe" "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadCLI "3 4 5"                "BluetoothViewCLI - Monitor the Bluetooth activity around you (XP+)" "http://www.nirsoft.net/utils/bluetoothcl.zip"  "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "16  4 5"              "BrowserAddonsView - View all web browser addons & plugins (32bit XP+)"  "http://www.nirsoft.net/utils/browseraddonsview.zip"   "browseraddonsview.exe" "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "17 3"                 "BrowserAddonsView - View all web browser addons & plugins (64bit XP+)"  "http://www.nirsoft.net/utils/browseraddonsview-x64.zip"   "browseraddonsview.exe" "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "  4 5 6"              "BrowsingHistoryView - View browser history for IE, Firefox, Chrome, & Safari (32bit 2000+)"  "http://www.nirsoft.net/utils/browsinghistoryview.zip"   "browsinghistoryview.exe" "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3"                    "BrowsingHistoryView - View browser history for IE, Firefox, Chrome, & Safari (64bit XP+)"  "http://www.nirsoft.net/utils/browsinghistoryview-x64.zip"   "browsinghistoryview.exe" "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6"              "BulkFileChanger - Updated file times (2000+)" "http://www.nirsoft.net/utils/bulkfilechanger.zip"   "bulkfilechanger.exe"   "" "http://www.nirsoft.net/utils/"
@@ -104,10 +63,9 @@ WirelessKeyDump
 !insertmacro DownloadGUI "3 4 5 6 7"            "CleanAfterMe - Auto clean files & registry entries (NT+)"    "http://www.nirsoft.net/utils/cleanafterme.zip" "cleanafterme.exe"  "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6"              "Clipboardic - Save clipboard activity to .clp files (2000+)"   "http://www.nirsoft.net/utils/clipboardic.zip"  "clipboardic.exe"   "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "ConAdvPass - Content Advisor password remover" "http://www.nirsoft.net/utils/conadvpass.zip"   "conadvpass.exe"    "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "16  4 5"              "CredentialsFileView - View Credential file passwords (32bit XP+)"  "http://www.nirsoft.net/toolsdownload/credentialsfileview.zip"   "credentialsfileview.exe" "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "17 3"                 "CredentialsFileView - View Credential file passwords (64bit XP+)"  "http://www.nirsoft.net/toolsdownload/credentialsfileview-x64.zip"   "credentialsfileview.exe" "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "CSVFileView - View or convert tab or comma separated value (CSV) files"    "http://www.nirsoft.net/utils/csvfileview.zip" "csvfileview.exe"    "" "http://www.nirsoft.net/utils/"
-!insertmacro DownloadGUI "  4 5 6 7 8 9"        "CurrPorts - View open TCP-IP connections (32bit)"  "http://www.nirsoft.net/utils/cports.zip"   "cports.exe"    "" "http://www.nirsoft.net/utils/"
-!insertmacro DownloadGUI "3"                    "CurrPorts - View open TCP-IP connections (64bit)"  "http://www.nirsoft.net/utils/cports-x64.zip"   "cports.exe"    "" "http://www.nirsoft.net/utils/"
-!insertmacro DownloadCLI "3 4 5 6 7 8 9"        "CurrPorts - ~Download IpToCountry.csv (IP-to-country map)"  "http://smithii.com/files/IpToCountry.csv.zip"  "" "http://www.nirsoft.net/utils/"
 # http://software77.net/geo-ip/?DL=2
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "CurrProcess - Process viewer for Windows" "http://www.nirsoft.net/utils/cprocess.zip" "CProcess.exe"  "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4"                  "CustomExplorerToolbar - Customize the toolbar of Windows Explorer (7+)"    "http://www.nirsoft.net/utils/customexplorertoolbar.zip"    "customexplorertoolbar.exe" "" "http://www.nirsoft.net/utils/"
@@ -132,9 +90,13 @@ WirelessKeyDump
 !insertmacro DownloadGUI "3"                    "DriverView - View loaded device drivers (64bit XP+)"   "http://www.nirsoft.net/utils/driverview-x64.zip"   "DriverView.exe"    "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadCLI "3 4 5 6 7"            "DumpEDID - Dump extended display identification (NT+)" "http://www.nirsoft.net/utils/dumpedid.zip" "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "Empv - Reveal MS-SQL server passwords" "http://www.nirsoft.net/utils/empv.zip" "empv.exe"  "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "16  4 5"              "EncryptedRegView - View DPAPI encrypted registry data (32bit XP+)"  "http://www.nirsoft.net/toolsdownload/encryptedregview.zip"   "encryptedregview.exe" "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "17 3"                 "EncryptedRegView - View DPAPI encrypted registry data (64bit XP+)"  "http://www.nirsoft.net/toolsdownload/encryptedregview-x64.zip"   "encryptedregview.exe" "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6"              "ESEDatabaseView - View .EDB databases (2000+)" "http://www.nirsoft.net/utils/esedatabaseview.zip"  "esedatabaseview.exe"   "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "ExeInfo - View .EXE header information"    "http://www.nirsoft.net/utils/exeinfo.zip"  "exeinfo.exe"   "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6"              "ExifDataView - List Exif data in JPEG images (2000+)"	"http://www.nirsoft.net/utils/exifdataview.zip"	"exifdataview.exe"	"" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "16   4"               "EventLogChannelsView Vies event log channels (32bit Vista+)"  "http://www.nirsoft.net/utils/eventlogchannelsview.zip"   "eventlogchannelsview.exe"    "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "17 3"                 "EventLogChannelsView Vies event log channels (64bit Vista+)"  "http://www.nirsoft.net/utils/eventlogchannelsview-x64.zip"   "eventlogchannelsview.exe"    "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "10   4 5 6"           "EventLogSourcesView - View event log sources (32bit 2000+)"  "http://www.nirsoft.net/utils/eventlogsourcesview.zip"   "eventlogsourcesview.exe"    "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "11 3"                 "EventLogSourcesView - View event log sources (64bit XP+)"  "http://www.nirsoft.net/utils/eventlogsourcesview-x64.zip"   "eventlogsourcesview.exe"    "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "10 11 3 4 5"          "ExecutedProgramsList - View previously executed programs (XP+)" "http://www.nirsoft.net/utils/executedprogramslist.zip"   "executedprogramslist.exe"	"" "http://www.nirsoft.net/utils/"
@@ -153,15 +115,20 @@ WirelessKeyDump
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "FoldersReport - Folder usage report"   "http://www.nirsoft.net/utils/folrep.zip"   "folrep.exe"    "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "10   4 5 6"           "FolderTimeUpdate - Update modified time of folders to last time of files in it (32bit 2000+)"  "http://www.nirsoft.net/utils/foldertimeupdate.zip"   "foldertimeupdate.exe"    "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "11 3"                 "FolderTimeUpdate - Update modified time of folders to last time of files in it (64bit XP+)"  "http://www.nirsoft.net/utils/foldertimeupdate-x64.zip"   "foldertimeupdate.exe"    "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "16   4"               "FullEventLogView - View all event log details (32bit Vista+)"  "http://www.nirsoft.net/utils/fulleventlogview.zip"   "fulleventlogview.exe"    "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "17 3"                 "FullEventLogView - View all event log details (64bit Vista+)"  "http://www.nirsoft.net/utils/fulleventlogview-x64.zip"   "fulleventlogview.exe"    "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "GACView - .NET assembly viewer alternative"    "http://www.nirsoft.net/dot_net_tools/gacview.zip"  "gacview.exe"   "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "  4 5 6 7"            "GDIView - View GDI handles (32bit NT+)"   "http://www.nirsoft.net/utils/gdiview.zip"  "gdiview.exe"   "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3"                    "GDIView - View GDI handles (64bit XP+)"   "http://www.nirsoft.net/utils/gdiview-x64.zip"  "gdiview.exe"   "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadCLI "3 4 5 6 7 8 9"        "GoogRank - Dump Google pagerank (CLI version)" "http://www.nirsoft.net/utils/grankcmd.zip" "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "GoogRank - View Google pagerank (GUI version)" "http://www.nirsoft.net/utils/grank.zip"    "grank.exe" "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "16  4 5"              "GUIPropView - View opened window information (32bit XP+)"  "http://www.nirsoft.net/utils/guipropview.zip"   "guipropview.exe" "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "17 3"                 "GUIPropView - View opened window information (64bit XP+)"  "http://www.nirsoft.net/utils/guipropview-x64.zip"   "guipropview.exe" "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7"            "HashMyFiles - Calculate MD5, SHA1, CRC32 hashes (NT+)" "http://www.nirsoft.net/utils/hashmyfiles_u.zip"    "hashmyfiles.exe"   "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "8 9"                  "HashMyFiles - Calculate MD5, SHA1, CRC32 hashes (Win95-ME)"    "http://www.nirsoft.net/utils/hashmyfiles.zip"  "hashmyfiles.exe"   "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadCLI "  4 5 6 7"            "HeapMemView - Dump heap memory (32bit NT+)"    "http://www.nirsoft.net/utils/heapmemview.zip"  "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadCLI "3"                    "HeapMemView - Dump heap memory (64bit XP+)"    "http://www.nirsoft.net/utils/heapmemview-x64.zip"  "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "16 17 3 4"            "HostedNetworkStarter - Create a wifi hotspot (7+)"    "http://www.nirsoft.net/utils/hostednetworkstarter.zip"    "hostednetworkstarter.exe" "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "HTMLAsText - Convert HTML to text" "http://www.nirsoft.net/utils/htmlastext.zip"   "HtmlAsText.exe"    "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "HTMLDocEdit - Simple HTML designer; editor"    "http://www.nirsoft.net/utils/htmldocedit.zip"  "htmldocedit.exe"   "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "IconsExtract - Extract icons from EXEs & DLLs" "http://www.nirsoft.net/utils/iconsext.zip" "iconsext.exe"  "" "http://www.nirsoft.net/utils/"
@@ -171,6 +138,7 @@ WirelessKeyDump
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "IECookiesView - View & manage IE Cookies"  "http://www.nirsoft.net/utils/iecv.zip" "iecv.exe"  "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "IEDesignMode - Switch IE to design mode"   "http://www.nirsoft.net/utils/iedesignmode.zip" "IEDesignMode.exe"  "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "IEHistoryView - View IE history"   "http://www.nirsoft.net/utils/iehv.zip" "iehv.exe"  "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "1 2 3 4 5 6 7 8 9"    "IEPassView - View IE passwords"    "http://www.nirsoft.net/toolsdownload/iepv.zip" "iepv.exe"  "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "10 11 3 4 5"          "ImageCacheViewer - View images your Web browser cache (XP+)" "http://www.nirsoft.net/utils/imagecacheviewer.zip"  "imagecacheviewer.exe"   "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "InjectedDLL - View automatically injected DLLs"    "http://www.nirsoft.net/utils/injecteddll.zip"  "injecteddll.exe"   "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "InsideClipboard - View clipboard contents" "http://www.nirsoft.net/utils/insideclipboard.zip"  "insideclipboard.exe"   "" "http://www.nirsoft.net/utils/"
@@ -243,6 +211,8 @@ WirelessKeyDump
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "PcAnyPass - Reveal pcANYWHERE passwords"   "http://www.nirsoft.net/utils/pcanypass.zip"    "PCAnyPass.exe" "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "PcAnyScan - View pcANYWHERE hosts" "http://www.nirsoft.net/utils/pcanyscan.zip"    "pcanyscan.exe" "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7"            "PingInfoView - Ping multiple hosts,IP addressses (NT+)"    "http://www.nirsoft.net/utils/pinginfoview.zip" "pinginfoview.exe"  "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "16   4"               "PreviousFilesRecovery - Recover deleted from from shadow copies (32bit Vista+)"  "http://www.nirsoft.net/utils/previousfilesrecovery.zip"   "previousfilesrecovery.exe"    "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "17 3"                 "PreviousFilesRecovery - Recover deleted from from shadow copies (64bit Vista+)"  "http://www.nirsoft.net/utils/previousfilesrecovery-x64.zip"   "previousfilesrecovery.exe"    "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "  4 5 6 7"            "ProcessActivityView - View process access of files & folders (32bit NT+)"  "http://www.nirsoft.net/utils/processactivityview.zip"  "processactivityview.exe"   "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3"                    "ProcessActivityView - View process access of files & folders (64bit XP+)"  "http://www.nirsoft.net/utils/processactivityview-x64.zip"  "processactivityview.exe"   "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "  4 5 6"              "ProcessThreadsView - List threads of a selected process (32bit 2000+)" "http://www.nirsoft.net/utils/processthreadsview.zip"   "processthreadsview.exe"    "" "http://www.nirsoft.net/utils/"
@@ -272,6 +242,8 @@ WirelessKeyDump
 !insertmacro DownloadGUI "12 13 3 4 5"          "SecuritySoftView - View installed AntiVirus, AntiSpyware & Firewall programs (XP+)"  "http://www.nirsoft.net/utils/securitysoftview.zip" "securitysoftview.exe" "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "SeqDownload - Web image downloader"    "http://www.nirsoft.net/utils/seqdownload.zip"  "SeqDownload.exe"   "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7"            "ServiWin - Windows service manager alternative (NT+)"  "http://www.nirsoft.net/utils/serviwin.zip" "serviwin.exe"  "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "16   4"               "ShadowCopyView - View 'Volume Shadow Copy' snapshots (32bit Vista+)"  "http://www.nirsoft.net/utils/shadowcopyview.zip"   "shadowcopyview.exe"    "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "17 3"                 "ShadowCopyView - View 'Volume Shadow Copy' snapshots (64bit Vista+)"  "http://www.nirsoft.net/utils/shadowcopyview-x64.zip"   "shadowcopyview.exe"    "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "ShellBagsView - View saved folders settings"   "http://www.nirsoft.net/utils/shellbagsview.zip"    "shellbagsview.exe" "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "  4 5 6 7 8 9"        "ShellExView - Shell extensions manager (32bit)"    "http://www.nirsoft.net/utils/shexview.zip" "shexview.exe"  "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3"                    "ShellExView - Shell extensions manager (64bit)"   "http://www.nirsoft.net/utils/shexview-x64.zip" "shexview.exe"  "" "http://www.nirsoft.net/utils/"
@@ -311,9 +283,13 @@ WirelessKeyDump
 !insertmacro DownloadGUI "3 4 5 6 7"            "URLProtocolView - View installed URL protocols (NT+)"  "http://www.nirsoft.net/utils/urlprotocolview_u.zip"    "URLProtocolView.exe"   "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "8 9"                  "URLProtocolView - View installed URL protocols (Win95-ME)" "http://www.nirsoft.net/utils/urlprotocolview_u.zip"    "URLProtocolView.exe"   "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6"              "URLStringGrabber - Grab all URLs in IE window (2000+)" "http://www.nirsoft.net/utils/urlstringgrabber.zip" "urlstringgrabber.exe" "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadCpy "1 2 3 4 5 6"          "USBDeview - Download usb.ids (USB VendorID-ProductID file)"    "http://www.linux-usb.org/usb.ids"  "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "1 2 3 4 5 6"          "USBDeview - View all USB devices (2000+)"  "http://www.nirsoft.net/utils/usbdeview.zip"    "usbdeview.exe" "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6"              "USBLogView - View USB device log (2000+)"  "http://www.nirsoft.net/utils/usblogview.zip" "usblogview.exe" "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "UserAssistView - View UserAssist registry entries" "http://nirsoft.net/utils/userassistview.zip"   "userassistview.exe"    "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6"              "UserProfilesView - View user profiles (2000+)" "http://www.nirsoft.net/utils/userprofilesview.zip" "userprofilesview.exe"  "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "16   4"               "VaultPasswordView - View 'Windows Vault' passwords (32bit 7+)"  "http://www.nirsoft.net/toolsdownload/vaultpasswordview.zip"   "vaultpasswordview.exe"    "" "http://www.nirsoft.net/utils/"
+!insertmacro DownloadGUI "17 3"                 "VaultPasswordView - View 'Windows Vault' passwords (64bit 7+)"  "http://www.nirsoft.net/toolsdownload/vaultpasswordview-x64.zip"   "vaultpasswordview.exe"    "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "VNCPassView - Reveal VNC passwords"    "http://www.nirsoft.net/toolsdownload/vncpassview.zip"  "vncpassview.exe"   "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "  4 5 6 7 8 9"        "VoluMouse (Beta 3) - Control volume with mouse wheel (32bit)"  "http://www.nirsoft.net/utils/volumouse_beta.zip"   "volumouse.exe" "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3"                    "VoluMouse (Beta 3) - Control volume with mouse wheel (64bit)"  "http://www.nirsoft.net/utils/volumouse_beta-x64.zip"   "volumouse.exe" "" "http://www.nirsoft.net/utils/"
@@ -354,7 +330,6 @@ WirelessKeyDump
 !insertmacro DownloadCLI "  4 5 6"              "WirelessKeyDump - Dump wireless keys (32bit 2000+)"    "http://www.nirsoft.net/utils/wirelesskeydump.zip" "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadCLI "3"                    "WirelessKeyDump - Dump wireless keys (64bit XP+)"  "http://www.nirsoft.net/utils/wirelesskeydump-x64.zip" "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadCLI "3 4 5"                "WirelessNetConsole - Dump wireless network information (XP+) " "http://www.nirsoft.net/utils/wirelessnetconsole.zip"   "" "http://www.nirsoft.net/utils/"
-!insertmacro DownloadGUI "3 4 5"                "WirelessNetView - Monitor wireless networks on your area (XP+)"    "http://www.nirsoft.net/utils/wirelessnetview.zip"  "wirelessnetview.exe"   "" "http://www.nirsoft.net/utils/"
 !insertmacro DownloadGUI "3 4 5 6 7 8 9"        "ZipInstaller - Install applications from .ZIP file"    "http://www.nirsoft.net/utils/zipinst.zip"  "zipinst.exe"   "" "http://www.nirsoft.net/utils/"
 
 #src !insertmacro DownloadGUI "3 4 5 6 7 8 9"   "winexpsrc - WinExplorer"   "http://www.nirsoft.net/utils/winexpsrc.zip"    "winexp.exe"    ""

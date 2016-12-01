@@ -1,3 +1,26 @@
+## 1.51 (01-Dec-2016)
+
+  * Recreated top ten list from http://www.nirsoft.net/top_utilities_downloads.html
+  * Added GUIPropView - View opened window information (32bit XP+)
+  * Added GUIPropView - View opened window information (64bit XP+)
+  * Added EncryptedRegView View registry data encrypted with DPAPI (Data Protection API) (32bit XP+)
+  * Added EncryptedRegView View registry data encrypted with DPAPI (Data Protection API) (64bit XP+)
+  * Added CredentialsFileView - View Credential file passwords (32bit XP+)
+  * Added CredentialsFileView - View Credential file passwords (64bit XP+)
+  * Added VaultPasswordView - View 'Windows Vault' passwords (32bit 7+)
+  * Added VaultPasswordView - View 'Windows Vault' passwords (64bit 7+)
+  * Added FullEventLogView - View all event log details (32bit Vista+)
+  * Added FullEventLogView - View all event log details (64bit Vista+)
+  * Added EventLogChannelsView Vies event log channels (32bit Vista+)
+  * Added EventLogChannelsView Vies event log channels (64bit Vista+)
+  * Added PreviousFilesRecovery - Recover deleted from from shadow copies (32bit Vista+)
+  * Added PreviousFilesRecovery - Recover deleted from from shadow copies (64bit Vista+)
+  * Added ShadowCopyView - View 'Volume Shadow Copy' snapshots (32bit Vista+)
+  * Added ShadowCopyView - View 'Volume Shadow Copy' snapshots (64bit Vista+)
+  * Added HostedNetworkStarter - Create a wifi hotspot (7+)
+  * Added BrowserAddonsView - View all web browser addons & plugins (32bit XP+)
+  * Added BrowserAddonsView - View all web browser addons & plugins (64bit XP+)
+
 ## 1.50.1 (23-Feb-2016)
 
   * Updated BulletsPassView URL
